@@ -25,6 +25,7 @@ function adicionar() {
     document.getElementById('quantidade').value = 0;
 }
 
+//função para limpar
 function limpar() {
     totalGeral = 0;
     document.getElementById('lista-produtos').innerHTML = '';
